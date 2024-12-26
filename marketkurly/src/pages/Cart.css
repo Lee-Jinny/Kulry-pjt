@@ -1,0 +1,27 @@
+/* 헤더 스타일 */
+header {
+    text-align: center; 
+    font-size: 24px; 
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* 전체 컨테이너 */
+  .cart-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* 콘텐츠 레이아웃 */
+  .cart-content {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+    gap: 20px; 
+    box-sizing: border-box;
+  }
+  
+  
