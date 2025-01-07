@@ -1,0 +1,48 @@
+.category_list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .category_list p {
+    margin: 0;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .category_list p:hover {
+    background-color: #5F0080;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid #5F0080;
+  }
+
+  .lanking-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .lanking-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .lanking-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .lanking-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .lanking-card span {
+    font-weight: bold;
+    color: #333;
+  }

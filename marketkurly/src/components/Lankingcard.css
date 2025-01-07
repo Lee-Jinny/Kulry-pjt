@@ -1,0 +1,53 @@
+/* 폰트 적용 */
+.lankingcard-container {
+    font-family: 'Pretendard', sans-serif;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .lankingcard-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .lankingcard-button {
+    width: 100%;
+    padding: 8px 0;
+    background-color: white;
+    color: black;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .lankingcard-name {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .lankingcard-price-prev {
+    text-decoration: line-through;
+    color: #999999;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .lankingcard-price-info {
+    margin: 5px 0;
+  }
+  
+  .lankingcard-price-salerate {
+    color: #FA622F;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .lankingcard-price-main {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
