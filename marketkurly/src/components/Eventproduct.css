@@ -1,0 +1,18 @@
+.event_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 100px 0;
+}
+
+.event_info {
+    flex-shrink: 0; /* 텍스트 영역 크기 고정 */
+}
+
+.event_product {
+    flex-shrink: 0; /* 상품 영역 크기 고정 */
+}
+
+
+
+

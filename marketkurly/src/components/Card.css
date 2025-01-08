@@ -5,12 +5,24 @@
     padding: 10px;
   }
   
-  .card-image {
+  .image-container {
     width: 100%;
     height: 300px;
+    overflow: hidden;  /* 이미지가 컨테이너를 벗어나지 않도록 설정 */
+    border-radius: 4px;  /* border-radius를 이미지 컨테이너에 적용 */
+}
+
+  .card-image {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 4px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
   }
+
+  .card-image:hover {
+    transform: scale(1.04); /* 이미지 크기를 5% 키움 */
+}
   
   .card-button {
     width: 100%;
@@ -21,6 +33,7 @@
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
+    margin-top: 10px;
   }
   
   .card-name {

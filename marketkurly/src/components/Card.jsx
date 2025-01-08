@@ -5,11 +5,13 @@ const Card = ({ item }) => {
   return (
     <div className="card-container">
       {/* 상품 이미지 */}
-      <img
-        src={item.image_path}
-        alt={item.product_name}
-        className="card-image"  // 이미지 스타일 적용
-      />
+      <div className="image-container">
+        <img
+          src={item.image_path}
+          alt={item.product_name}
+          className="card-image"  // 이미지 스타일 적용
+        />
+      </div>
       {/* 장바구니 버튼 */}
       <button className="card-button">
         🛒 담기

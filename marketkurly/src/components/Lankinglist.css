@@ -1,29 +1,40 @@
+.category_container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category_container > h2 {
+  margin-top: 100px;
+}
 .category_list {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+    margin: 10px 0;
   }
   
   .category_list p {
     margin: 0;
     padding: 8px 12px;
     cursor: pointer;
+    background-color: #F2F2F2;
+    border-radius: 20px;
   }
   
   .category_list p:hover {
     background-color: #5F0080;
     color: white;
     border-radius: 20px;
-    border: 1px solid #5F0080;
   }
 
   .lanking-card-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 한 줄에 3개 */
+    gap: 20px; /* 카드 간격 */
   }
-  
+
   .lanking-card {
     border: 1px solid #ccc;
     padding: 20px;
@@ -46,3 +57,4 @@
     font-weight: bold;
     color: #333;
   }
+
