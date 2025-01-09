@@ -1,5 +1,5 @@
 import React from 'react';
-import './card.css';  // card.css 파일을 임포트
+import './Card.css';  // card.css 파일을 임포트
 
 const Card = ({ item }) => {
   return (
