@@ -23,7 +23,7 @@
 
   .main_title {
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
   }
   .sub1 {
@@ -37,5 +37,13 @@
     font-size: 13px;
   }
 
+  .time-left {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+    
+  }
 
 
